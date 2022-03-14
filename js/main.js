@@ -14,10 +14,7 @@ function addItem(e){
     let li = document.createElement("li");
     li.className="list-group-item d-flex animate__bounceInRight";
     li.style ="animation-duration: 1s;"
-    // let elP = document.createElement("p");
-    li.innerHTML = `<p>${newItem}</p>`
-    // elP.appendChild(document.createTextNode(newItem));
-    // li.appendChild(elP);
+    li.innerHTML = `<p>${newItem}</p>`;
     
     
     let exitBtn = document.createElement("bx");

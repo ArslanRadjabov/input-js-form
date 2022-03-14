@@ -57,6 +57,18 @@ img {
   margin-right: auto;
 }
 
+.todolist-title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .form-section {
   -webkit-box-shadow: 2px 1px 22px 0px rgba(34, 60, 80, 0.2);
           box-shadow: 2px 1px 22px 0px rgba(34, 60, 80, 0.2);
