@@ -12,7 +12,8 @@ function addItem(e){
 
     let newItem = itemInput.value;
     let li = document.createElement("li");
-    li.className="list-group-item d-flex";
+    li.className="list-group-item d-flex animate__bounceInRight";
+    li.style ="animation-duration: 1s;"
     li.appendChild(document.createTextNode(newItem));
     
     
