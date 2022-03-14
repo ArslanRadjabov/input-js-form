@@ -73,10 +73,10 @@ img {
       -ms-flex-align: left;
           align-items: left;
   width: 350px;
-  height: 350px;
   border-radius: 20px;
   background-color: #fff;
   padding: 20px;
+  padding-bottom: 50px;
   position: relative;
 }
 
@@ -178,5 +178,26 @@ img {
 .all:hover {
   background-color: #1ce4e4;
   color: #fff;
+}
+
+.serach-section {
+  gap: 10px;
+}
+
+.serach-section #search {
+  width: 100%;
+  border: 1px solid rgba(14, 14, 14, 0.281);
+}
+
+.serach-section #search:focus {
+  outline: none;
+}
+
+.serach-section .bx-search {
+  padding: 5px;
+  font-size: 25px;
+  background-color: #11dfcd;
+  color: #fff;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
